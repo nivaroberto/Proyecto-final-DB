@@ -1,0 +1,113 @@
+#banner{
+    margin-top: 50px;
+    position: relative;
+}
+
+#banner img{
+    width: 100%;
+    height: 100%;
+}
+
+#banner .contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: #fff;
+}
+
+#banner h2{
+    font-size: 28px;
+}
+
+#banner a{
+    display: block;
+    width: 100px;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+    border: 3px solid #fff;
+}
+
+#banner a:hover{
+    background: rgba(51,51,51,0.5);
+}
+
+@media (min-width:480px){
+    #banner h2{
+        font-size: 40px;
+    }
+    
+    #banner a{
+        margin-top: 25px;
+    }
+}
+
+@media (min-width:768px){
+    #banner{
+        height: 300px;
+        overflow: hidden;
+    }
+    
+    #banner img{
+        height: auto;
+        margin-top: -100px;
+    }
+}
+    
+@media (min-width:1024px){  
+    #banner img{
+        margin-top: -150px;
+    }
+    
+}
+
+/*
+.banner{
+    width: 700px;
+    height: 300px;
+    margin: auto;
+    background-size: 100% 100%;
+    animation: banner 10s infinite;
+}
+
+@keyframes banner{
+    0%, 21%{
+        background-image: url(http://www.mgpz.telecablenet.com/zagadachnoto/photos/ednorog5.gif);
+        opacity: 1;
+    }
+    
+    22%, 24%{
+        opacity: 0.1;
+    }
+    
+        25%, 46%{
+        background-image: url(http://images.etn.eltiempo.digital/files/article_main/files/crop/uploads/2017/03/09/58c17ab01f1c9.r_1490044557497.0-0-2002-1001.jpeg);
+        opacity: 1;
+    }
+    
+    47%, 49%{
+        opacity: 0.1;
+    }
+    
+        50%, 71%{
+        background-image: url(https://cdn.expansion.mx/dims4/default/cdc67a5/2147483647/crop/1261x709%2B0%2B78/resize/850x478%5E/quality/75/?url=https%3A%2F%2Fcdn.expansion.mx%2Fae%2F3b%2F5428f2ca4970b6ea1e76e0a24928%2Fistock-515366502.jpg);
+        opacity: 1;
+    }
+    
+    72%, 74%{
+        opacity: 0.1;
+    }
+    
+        75%, 96%{
+        background-image: url(http://eleconomista.com.mx/files/imagecache/eco2014_650x433/files/hackers29-290415_reuters_0.jpg);
+        opacity: 1;
+    }
+    
+    97%, 100%{
+        opacity: 0.1;
+    }
+    
+}
+*/

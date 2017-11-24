@@ -1,0 +1,39 @@
+#Noticia .contenedor{
+    text-align: justify;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+#Noticia img{
+    width: 230px;
+    height: 250px;
+    padding: 0;    
+}
+
+#Noticia .imagen{
+    position:  relative;
+    width: 100%;
+ /* for IE 6 */
+}
+
+#Noticia h6 {
+    position: absolute;
+    top: 200px;
+    float: left;
+    width: 100%;
+
+}
+
+
+#Noticia h6 span {
+float: left;
+color: white;
+font: bold 12px/23px 'Open Sans', sans-serif;
+letter-spacing: -1px;
+background: rgb(0, 0, 0);
+background: rgba(0, 0, 0, 0.7);  
+overflow:  auto;
+}
+
+
+

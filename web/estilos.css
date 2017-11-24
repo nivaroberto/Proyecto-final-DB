@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('menu.css');
+@import url('banner.css');
+@import url('blog.css');
+@import url('info-member.css');
+@import url('Noticia.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background: #333;
+    color: #fff;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100; 
+    
+}
+
+.contenedor {
+    width: 98%;
+    margin: auto;
+}
+
+h1{
+    float: left;
+}
+
+header .contenedor{
+    display: table;
+}
+
+section{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#Bienvenidos{
+    text-align: center;
+}
+
+footer .contenedor{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 28px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    background-color: #efefef;
+}
+
+.copy{
+    font-size: 20px;
+}
+
+.sociales{
+    width: 100%;
+    text-align: right;
+    font-size: 20px;
+}
+
+.sociales a{
+    color: #333;
+    text-decoration: none;
+}
+
+@media (min-width:768px){
+    .sociales{
+        width: auto;
+    }
+    
+    footer .contenedor{
+        justify-content: space-between;
+    }
+    
+}
+
+@media (max-width:1080px){
+    header label{
+        display: block;
+    }
+    
+    .menu{
+        position: absolute;
+        top: 50px;
+        left:0;
+        width: 100%;
+    }
+    
+    .menu ul{
+        display: block;
+    }
+    
+}
+
+#blog img{
+    width: 400px;
+    height: 200px;
+    border: 2px solid #fff; 
+}
+
+#notas img{
+    width: 400px;
+    height: 200px;
+    border: 1px solid #331; 
+}
+
+#notas{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#notas .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.login {
+    background: #333333;
+    width: 360px;
+    border: 1px solid #4e4d4d;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -box-shadow: inset 0 0 10px #fff;
+    margin: 100px auto;
+}
+.login h1{
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+    font-size: 25pt;
+    margin: 30px 70px;
+}
+
+.login input{
+    width:  280px;
+    height: 35px;
+    padding: 0px 10px;
+    margin: 10px 30px;
+    color: #6d6d6d;
+    text-align: center;
+}
+
+.login button{
+    width: 135px;
+    margin: 20px 0px 30px 30px;
+    heigth: 100px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3c3c3c+0,050000+51,0c0300+53,2a2828+100 */
+    background: #3c3c3c; /* Old browsers */
+    background: -moz-linear-gradient(top, #3c3c3c 0%, #050000 51%, #0c0300 53%, #2a2828 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #3c3c3c 0%,#050000 51%,#0c0300 53%,#2a2828 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #3c3c3c 0%,#050000 51%,#0c0300 53%,#2a2828 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c3c3c', endColorstr='#2a2828',GradientType=0 ); /* IE6-9 */
+    border: 1px solid #232323;
+    color: #fff;
+    box-shadow:  0px 2px 0px #000;
+    -moz-box-shadow:  0px 2px 0px #000;
+    -webkit-box-shadow:  0px 2px 0px #000;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.login button:hover{
+    background: #3a3a3a;
+}
+
+.login button:active{
+    background: #2a2828;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#2a2828+0,0c0300+47,050000+49,3c3c3c+100 */
+    background: #2a2828; /* Old browsers */
+    background: -moz-linear-gradient(top, #2a2828 0%, #0c0300 47%, #050000 49%, #3c3c3c 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #2a2828 0%,#0c0300 47%,#050000 49%,#3c3c3c 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #2a2828 0%,#0c0300 47%,#050000 49%,#3c3c3c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a2828', endColorstr='#3c3c3c',GradientType=0 ); /* IE6-9 */
+
+}
